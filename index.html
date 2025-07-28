@@ -2716,7 +2716,8 @@
             </div>
         </div>
     </div>
-
+	
+<!--  Dialogflow - Buddy  -->
 <!-- <iframe 
   style="position: fixed;bottom: 0;right: 0;"
       allow="microphone;"
@@ -2724,13 +2725,21 @@
       height="250"
       src="https://console.dialogflow.com/api-client/demo/embedded/Buddy">
 </iframe> -->
-<iframe
+<!--  <iframe
     allow="microphone;"
     style="position: fixed;bottom: 0;right: 0;"
     width="300"
     height="350"
     src="https://console.dialogflow.com/api-client/demo/embedded/3ae4be54-dabc-455a-ab5c-d3c28d7e0897">
-</iframe>
+</iframe> -->
+	<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  chat-icon="https:&#x2F;&#x2F;storage.googleapis.com&#x2F;cloudprod-apiai&#x2F;613d281f-0fda-4c03-8a59-d401422b70bb_x.png"
+  intent="WELCOME"
+  chat-title="Buddy"
+  agent-id="3ae4be54-dabc-455a-ab5c-d3c28d7e0897"
+  language-code="en"
+></df-messenger>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
